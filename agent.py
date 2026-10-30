@@ -45,7 +45,7 @@ load_env()
 WHATSAPP_KEY = os.getenv("WHATSAPP_AGENT_KEY", "")
 BRAIN = os.getenv("AI_PROVIDER", "gemini").lower()          # gemini | claude | openai
 MODELS = {
-    "gemini": os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),
+    "gemini": os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite"),
     "claude": os.getenv("CLAUDE_MODEL", "claude-haiku-5-5"),
     "openai": os.getenv("OPENAI_MODEL", "gpt-6-luna"),
 }
